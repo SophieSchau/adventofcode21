@@ -1,6 +1,6 @@
 # 1. Read input file
-# 2. calculate difference to neighbour
-# 3. Sum up number of negative entries
+# 2a. Find number of times the neighboring value is increasing -> print
+# 2b. Sum up depths in sliding window, repeat 2a on new list -> print
 
 def readintfile(file):
     with open(file) as f:
